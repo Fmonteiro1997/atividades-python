@@ -1,0 +1,7 @@
+r=float(input('Digite o valor atual que você tem em R$ '))
+d=r / 5.44
+e=r / 6.01
+pe=r / 0.13
+print('Você pode comprar {:.2f} dolares'.format(d))
+print('Você pode comprar {:.2f} euros'.format(e))
+print('Você pode comprar {:.2f} pesos uruguaios'.format(pe))
